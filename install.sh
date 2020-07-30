@@ -13,7 +13,7 @@ create_mainfest_file(){
     echo "内存大小：${IBM_MEM_SIZE}"
     
     
-    cat >  ${SH_PATH}/ibm-v2/v2cf/v2ray/manifest.yml  << EOF
+    cat >  ${SH_PATH}/ibm-v2/v2cf/manifest.yml  << EOF
     applications:
     - path: .
       name: ${IBM_APP_NAME}
