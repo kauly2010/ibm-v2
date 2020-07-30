@@ -28,6 +28,8 @@ clone_repo(){
     echo "进行初始化。。。"
     cd ${SH_PATH}
     git clone https://github.com/bygreencn/ibm-v2
+    cd ibm-v2
+    git checkout dev
     echo "初始化完成。"
 }
 
