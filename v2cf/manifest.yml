@@ -1,5 +1,6 @@
 applications:
 - path: .
-  name: GetStartedpython
+  name: GetStartedPython
   random-route: true
   memory: 256M
+  buildpack: python_buildpack

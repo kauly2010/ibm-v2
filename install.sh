@@ -39,7 +39,6 @@ install(){
     chmod +x *
     cd ${SH_PATH}/ibm-v2/v2cf
     ibmcloud target --cf
-    ibmcloud cf install
     ibmcloud cf push
     echo "安装完成。"
 }
